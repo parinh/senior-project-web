@@ -28,7 +28,7 @@
                 <div class="card-body" style="background: #273746; color: white;">
 
                 <div v-if="info!=editText">
-                    <h5 class="card-title" style="text-align: center; font-size: 40px;" >ข้อมูลผู้ใช้</h5>
+                    <h5 class="card-title" style="text-align: center; font-size: 40px;" >ข้อมูลสวมใส่</h5>
                     <hr>
                     <p class="card-text" style="font-size: 20px;">น้ำหนัก <strong>{{info.weight}}</strong> กิโลกรัม</p>
                     <p class="card-text" style="font-size: 20px;">ส่วนสูง <strong>{{info.height}}</strong> เซนติเมตร</p>
@@ -36,7 +36,7 @@
                 </div>
 
                 <div v-else>
-                    <h5 class="card-title" style="font-size: 40px;"><strong>แก้ไขข้อมูลผู้ใช้</strong></h5>
+                    <h5 class="card-title" style="font-size: 40px;"><strong>แก้ไขข้อมูลผู้สวมใส่</strong></h5>
                     <p class="card-text" style="font-size: 20px;">น้ำหนัก/กิโลกรัม</p>
                     <input name="name" class="form-control" v-model="info.weight">
                                     
@@ -58,9 +58,9 @@
                 </div>
             </div>
 <hr>
-        <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+        <div class="card text-white bg-info mb-3" style="max-width: 31rem;">
             <div class="card-body">
-            <h5 class="card-title"><strong>คำแนะนำ</strong></h5>
+            <h5 class="card-title" ><strong>คำแนะนำ</strong></h5>
             <p class="card-text">เพื่อการตรวจจับที่ถูกต้องยิ่งขึ้น กรุณาใส่ข้อมูลของผู้สวมใส่ที่เป็นปัจจุบัน</p>
             </div>
         </div> 
