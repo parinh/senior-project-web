@@ -30,12 +30,12 @@
                 <div v-if="info!=editText">
                     <h5 class="card-title" style="text-align: center; font-size: 40px;" >ข้อมูลสวมใส่</h5>
                     <hr>
-                    <p class="card-text" style="font-size: 20px;">ความสูงของเข็มขัดจากพื้น <strong>{{info.height}}</strong> เซนติเมตร</p>
-                    <p class="card-text" style="font-size: 20px;">ความกว้างของไหล่ <strong>{{info.shouderW}}</strong> นิ้ว</p>
+                    <p class="card-text" style="font-size: 20px;">ความสูงเข็มขัดจากพื้น <strong>{{info.height}}</strong> cm</p>
+                    <p class="card-text" style="font-size: 20px;">ความกว้างของไหล่ <strong>{{info.shouderW}}</strong> inch</p>
                 </div>
 
                 <div v-else>
-                    <h5 class="card-title" style="font-size: 40px;"><strong>แก้ไขข้อมูลผู้สวมใส่</strong></h5>
+                    <h5 class="card-title" style="font-size: 35px;"><strong>แก้ไขข้อมูลผู้สวมใส่</strong></h5>
             
                     <p class="card-text" style="font-size: 20px;">ความสูงของเข็มขัดจากพื้น/เซนติเมตร</p>
                     <input name="name" class="form-control" v-model="info.height" type=number>
